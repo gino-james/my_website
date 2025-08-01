@@ -1,8 +1,7 @@
 import React from 'react';
-import { useInView } from '../hooks/useInView.js'; // Import the custom hook
+import { useInView } from '../hooks/useInView.js'; 
 
 const SkillCard = ({ category, index }) => {
-    // useInView is now called at the top level of the SkillCard component
     const [ref, isVisible] = useInView({ threshold: 0.1, delay: index * 100 });
 
     return (
