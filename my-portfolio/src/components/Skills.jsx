@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillCard from './SkillCard.jsx'; // Import the new SkillCard component
+import SkillCard from './SkillCard.jsx'; 
 
 const Skills = () => {
     const skillCategories = [
