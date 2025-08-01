@@ -1,6 +1,4 @@
-/* src/index.css (or src/main.css) */
 
-/* Minimal global styles to avoid conflicts with App.css */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -8,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; /* This will be overridden by App.css's body background */
+  background-color: #242424; 
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,19 +14,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Remove conflicting body styles */
+
 body {
   margin: 0;
-  /* Removed: display: flex; */
-  /* Removed: place-items: center; */
-  min-width: 320px; /* Keep minimum width for mobile responsiveness */
-  min-height: 100vh; /* Ensure body takes full viewport height */
+  
+  min-width: 320px; 
+  min-height: 100vh; 
 }
 
-/* Keep other global styles if desired, but ensure they don't conflict */
+
 a {
   font-weight: 500;
-  color: #646cff; /* This will be overridden by App.css for specific links */
+  color: #646cff; 
   text-decoration: inherit;
 }
 a:hover {
@@ -36,7 +33,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 3.2em; /* This will be overridden by App.css for specific headings */
+  font-size: 3.2em; 
   line-height: 1.1;
 }
 
@@ -47,7 +44,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a; /* This will be overridden by App.css for specific buttons */
+  background-color: #1a1a1a; 
   cursor: pointer;
   transition: border-color 0.25s;
 }
