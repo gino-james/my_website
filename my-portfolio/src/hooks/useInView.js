@@ -1,6 +1,4 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-
-// Custom Hook for "Scroll into View" Animation with optional delay
 const useInView = (options = {}) => {
     const [isVisible, setIsVisible] = useState(false);
     const ref = useRef(null);
@@ -13,8 +11,7 @@ const useInView = (options = {}) => {
                 setIsVisible(true);
             }, delay);
         } else {
-            // Optional: reset visibility if element scrolls out of view
-            // setIsVisible(false);
+            
         }
     }, [delay]);
 
