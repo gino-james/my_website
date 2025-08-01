@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Import the main CSS file
-
-// Import all individual components
+import './App.css'; 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -10,7 +8,7 @@ import ProjectCategories from './components/ProjectCategories';
 import DomainProjects from './components/DomainProjects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import LoadingScreen from './components/LoadingScreen'; // <-- CHANGE THIS LINE
+import LoadingScreen from './components/LoadingScreen'; 
 
 // Main App Component
 const App = () => {
