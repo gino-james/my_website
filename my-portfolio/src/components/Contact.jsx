@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useInView } from '../hooks/useInView.js'; // Corrected import path
+import { BACKEND_URL } from '../config';
 
 const Contact = () => {
     const [ref, isVisible] = useInView({ threshold: 0.1 });
